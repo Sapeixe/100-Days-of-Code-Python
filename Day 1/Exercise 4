@@ -1,0 +1,10 @@
+a = input("a: ")
+b = input("b: ")
+
+ab = a
+ba = b
+a = ba
+b = ab
+
+print("a: " + a)
+print("b: " + b)
